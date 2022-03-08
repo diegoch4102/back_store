@@ -1,0 +1,28 @@
+{
+    "name": "back_store",
+    "version": "0.1.0",
+    "description": "Backend structure for a Store.\r This project is build using Node, Express.js.\r This has a frontend component in front_store repository.",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index.js -L",
+        "start": "node index.js",
+        "lint": "eslint"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/diegoch4102/back_store.git"
+    },
+    "keywords": [],
+    "author": "Diego Chacón <diegoch4102@gmail.com> (https://github.com/diegoch4102)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/diegoch4102/back_store/issues"
+    },
+    "homepage": "https://github.com/diegoch4102/back_store#readme",
+    "devDependencies": {
+        "eslint": "^8.10.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "prettier": "^2.5.1"
+    }
+}
